@@ -26,7 +26,7 @@ Unfortunatley now your account is now running a process that has root access, wi
 
 For instance the attack discussed in this repo.
 
-# How this attack works
+# What the attack does
 
 First the shell script will check if you are running as root. If you are there is no need to continue. After that it will check
 if you are in the docker group, if you're not this script cannot achieve its goal. If you are in the docker group it will then
