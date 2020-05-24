@@ -5,8 +5,8 @@ Simple idea that I had one day when looking up how to run `docker`  commands wit
 Heavily based on code by [chrisfosterelli](https://github.com/chrisfosterelli/dockerrootplease) and [KrustyHack](https://github.com/KrustyHack/docker-privilege-escalation)
 
 # Usage
-chmod +x ./exploit.sh
-./exploit
+`chmod +x ./exploit.sh`
+`./exploit`
 
 # When would this happen?
 
