@@ -16,11 +16,17 @@ Therefore to run docker commands its important to run it with sudo.
 
 To get around this you can do the following steps
 1. Add the docker group if its not in existence
+
 ` sudo groupadd docker`
+
 2. Add yourself to said group
+
 ` sudo gpasswd -a $USER docker`
+
 3. Activate the changes
+
 `newgrp docker`
+
 4. Run docker commands without sudo
 
 Unfortunatley now your account is now running a process that has root access, without first escalating your account. This can lead to many different attacks.
